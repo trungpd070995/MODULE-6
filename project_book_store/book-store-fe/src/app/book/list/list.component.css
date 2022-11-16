@@ -1,0 +1,16 @@
+.col {
+  display: flex;
+  align-items: stretch;
+}
+
+mat-label {
+  font-weight: bold;
+}
+
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;;
+}
